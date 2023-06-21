@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F9F9F9;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login p{
+    font-size: xx-large;
+    padding-top: 10vh;
+    font-weight:300;
+    color: #72567A;
+}.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 10vh;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 3%;
+
+}
+.form label {
+    margin-bottom: 2%;
+    font-size: larger;
+}
+.form input {
+    background-color: #EDEDED;
+    border: 1px solid #EDEDED;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 300;
+    height: 7vh;
+}
+.form button {
+    margin-top: 3%;
+    padding: 2% 3%;
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+}
+.form ::placeholder{
+
+padding-left: 4%;
+}
+.form option{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 3%;
+
+}
+#formulario input{
+    background-color: #72567A;
+    color: #F9F9F9;
+}

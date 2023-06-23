@@ -1,16 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;   
     /* background-color: #F9F9F9; */
 
 }
 body {
     display: flex;   
     justify-content: center;
-    background-color: #dfe3d3;
+    background-color: #ffffff;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,4 +22,56 @@ body {
     font-weight:300;
     color: #72567A;
     padding-top: 8vh;
+    padding-bottom: 03vh;
+}
+.Text p{
+
+    padding-left: 05vh;
+    padding-right: 05vh;
+    text-align: center;
+    line-height: 02.2vh;
+    font-weight: 500;
+    margin-bottom: 03vh;
+}
+.form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 2vh;
+
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-bottom: 3vh;
+
+}
+.form label {
+    margin-bottom:6%;
+    font-size: larger;
+    
+    /* padding-bottom: 10vh; */
+}
+.form input {
+    background-color: #E5E5E5;
+    border: 1px solid #EDEDED;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 300;
+    height: 06vh;
+    box-shadow: 2px 3px 7px #00000060;
+
+}
+.form button {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+}
+.form ::placeholder{
+
+    text-align: center;
+    color: black;
 }

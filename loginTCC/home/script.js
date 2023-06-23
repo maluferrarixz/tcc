@@ -1,5 +1,5 @@
 let nome = document.querySelector('#item')
-nome.textContent = 'Olá, '+ localStorage.getItem('usuario') + '!. Aqui você vai ver publicações de acordo com o seu gosto, que ajude você a ter mais espaço na dança e poder se aproximar mais dela!'
+nome.textContent = 'Olá, '+ localStorage.getItem('usuario') + '!. Permita que a dança seja sua aliada na resolução de problemas internos e na superação de bloqueios, encontrando uma conexão profunda com seu corpo e mente.'
 
 
 

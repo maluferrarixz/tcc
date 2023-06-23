@@ -2,58 +2,54 @@
     padding: 0;
     margin: 0;
     font-size: small;
-    font-family: 'Rubik', sans-serif;
-    color: #72567A;
+    font-family: 'Poppins', sans-serif;   
+     color: #72567A;
     align-items: center;
 
-    
-    /* background-color: #F9F9F9; */
 }
 body{
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/.jfif);
+    background-image: url(../assets/Laurie-20.jpg);
     background-repeat:no-repeat; 
-    background-position: 55%;
-    background-size:90vh; 
-    padding-top: 30vh;
-
+    background-position:102%;
+    background-size: cover;
+    height: 100vh;
+    align-items:center;
+    justify-content:center;
 }
 #paragrafo{
 
-    font-weight: 100;
-    font-size: 60px;
     text-align: center;
     width: 77vw;
-    height: 33vh;
-    align-items: center;
-    /* padding-top: 04vh; */
-    border-radius: 15%;
-    background-color: rgba(255, 255, 255, 0.7);
+    height: 37vh;
+    border-radius: 9%;
+    background-color: #ffffff1c;
+    backdrop-filter: blur(11px);
+    --webkit-backdrop-filter: blur(13.5px);
+    margin-bottom: 29vh;
+    box-shadow: 6px 3px 7px #00000060;
+    
 }
 #item{
-    font-weight: 00;
-    font-size:medium;
-    text-align: center;
+    font-weight: 500;
+    /* font-size: 2.3vh; */
+    line-height: 19px;
     text-align:left;
-    padding-left: 01vh;
-    /* width: 75vw;
-    height: 44vh; */
-    align-items: center;
+    padding: 03vh;
     padding-top: 04vh;
-    color: black;
-
+    color: rgb(0, 0, 0);
 }
 #formulario input{
-
-    background-color: #72567A;
+    
+    box-shadow: 2px 3px 7px #00000060;
+    background: #72567A;
     color: #F9F9F9;
-    border: 1px solid #EDEDED;
+    border: 1px solid #72567A;
     border-radius: 10px;
     font-weight: 300;
     height: 6vh;
     width: 29vw;
-    margin: 05vh;
 }
 
 

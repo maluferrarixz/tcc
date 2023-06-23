@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    /* background-color: #F9F9F9; */
+
+}
+body {
+    display: flex;   
+    justify-content: center;
+    background-color: #dfe3d3;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Tittle h1{
+    font-size: xx-large;
+    font-weight:300;
+    color: #72567A;
+    padding-top: 8vh;
+}

@@ -10,43 +10,46 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(background1.jfif);
-
+    background-color: #EDEDED;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 
 }
 .cad p{
     font-size: xx-large;
-    padding-top: 10vh;
     font-weight:300;
-    color:#72567A;
+    color: #72567A;
 }.form {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding-top: 10vh;
+    padding-top: 7vh;
 }
 .form form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 3%;
+    padding-bottom: 10%;
+
 }
 .form label {
-    margin-bottom: 2%;
+    margin-bottom:6%;
     font-size: larger;
+    
+    /* padding-bottom: 10vh; */
 }
 .form input {
-    background-color: #EDEDED;
+    background-color: #bab0b0;
     border: 1px solid #EDEDED;
     height: 30px;
     border-radius: 10px;
     font-weight: 300;
-    height: 7vh;
+    height: 06vh;
 }
 .form button {
-    margin-top: 3%;
-    padding: 2% 3%;
     background-color: var(--blue);
     color: white;
     border: 1px solid var(--blue);
@@ -54,15 +57,7 @@ body {
 }
 .form ::placeholder{
 
-padding-left: 4%;
-}
-.form select{
-    background-color: #EDEDED;
-    border: 1px solid #EDEDED;
-    height: 30px;
-    border-radius: 10px;
-    font-weight: 300;
-    padding-left: 3%;
+padding-left: 6%;
 }
 #formulario input{
     background-color: #72567A;

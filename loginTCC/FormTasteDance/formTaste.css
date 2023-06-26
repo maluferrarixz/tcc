@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;   
+    /* background-color: #F9F9F9; */
+
+}
+body {
+    /* display:flow-root;    */
+    /* justify-content: center; */
+    background-color: #ffffff;
+    background-size: cover;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3vh;
+
+
+}
+.Tittle h1{
+    font-size: xx-large;
+    font-weight:300;
+    color: #72567A;
+    padding-top: 8vh;
+    padding-bottom: 03vh;
+    text-align: center;
+}
+.Text p{
+
+    padding-left: 05vh;
+    padding-right: 05vh;
+    text-align: center;
+    line-height: 03vh;
+    font-weight: 500;
+    margin-bottom: 03vh;
+}
+.form {
+    width: auto;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    align-items:center;
+    padding-top: 1.9vh;
+    
+    
+
+}
+.form form {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colunas com largura igual */
+    gap: 10px; 
+    /* width: calc(33.33% - 10px);  */
+    margin-bottom: 10px;
+    /* padding-right: 2vh; */
+/* flex-direction: row; */
+    /* flex-direction: column; */
+    /* width: auto; */
+ 
+}
+.form button {
+    background-color:  rgb(114, 86, 122, 0.3);;
+    border: 1px solid  rgb(114, 86, 122, 0.1);;
+    height: 6vh;
+    width: 15vh;
+    border-radius: 10px;
+    font-weight: 300;
+    box-shadow: 2px 3px 7px #00000060;
+    
+
+}
+.form button {
+    /* background-color: var(--blue); */
+    color: rgb(37, 5, 41);
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+    
+}
+.title{
+
+    text-align: center;
+    color: black;
+}
+.form label {
+    /* padding-right: 27vh; */
+    font-size:medium;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+}
+.form input {
+    background-color: rgb(114, 86, 122, 0.1);
+    border: 1px solid #ffffff;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 300;
+    height: 06vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-bottom: 2vh; 
+
+}
+
+.form1 button {
+    background-color:  rgb(114, 86, 122, 0.3);;
+    border: 1px solid  rgb(114, 86, 122, 0.1);;
+    height: 05vh;
+    width: 50vw;
+    border-radius: 10px;
+    font-weight: 300;
+    box-shadow: 2px 3px 7px #00000060;
+
+}

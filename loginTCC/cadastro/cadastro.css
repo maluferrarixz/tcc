@@ -42,7 +42,7 @@ body {
     /* padding-bottom: 10vh; */
 }
 .form input {
-    background-color: #bab0b0;
+    background-color: rgb(114, 86, 122, 0.1);
     border: 1px solid #EDEDED;
     height: 30px;
     border-radius: 10px;

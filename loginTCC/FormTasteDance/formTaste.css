@@ -15,6 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding-bottom: 3vh;
+    /* margin-bottom: 3vh; */
 
 
 }
@@ -72,9 +73,11 @@ body {
 }
 .form button {
     /* background-color: var(--blue); */
-    color: rgb(37, 5, 41);
+    color: rgb(255, 255, 255);
     border: 1px solid var(--blue);
     border-radius: 50px;
+    background-color: #896594 ;
+    /* opacity: 0.9; */
     
 }
 .title{
@@ -91,7 +94,7 @@ body {
 .form input {
     background-color: rgb(114, 86, 122, 0.1);
     border: 1px solid #ffffff;
-    height: 30px;
+    height: 45px;
     border-radius: 10px;
     font-weight: 300;
     height: 06vh;
